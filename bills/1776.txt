@@ -1,0 +1,7 @@
+	Welcome Webcode Retail
+ Bill Number: 1776
+Customer Name:sfsdf
+ Phone Number:2342
+++++++++++++++++++++++++++++
+ Products 		 Qty		Price
+============================

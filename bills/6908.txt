@@ -1,0 +1,8 @@
+	Welcome Webcode Retail
+ Bill Number: 6908
+Customer Name:dsfds
+ Phone Number:234
+++++++++++++++++++++++++++++
+ Products 		 Qty		Price
+============================
+ Bath Soap		 33		33

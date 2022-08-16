@@ -1,0 +1,8 @@
+	Welcome Webcode Retail
+ Bill Number: 5665
+Customer Name:asda
+ Phone Number:2131
+++++++++++++++++++++++++++++
+ Products 		 Qty		Price
+============================
+ Bath Soap		 3		3
