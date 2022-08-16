@@ -1,0 +1,7 @@
+	Welcome Webcode Retail
+ Bill Number: 6055
+Customer Name:hayat
+ Phone Number:234234
+++++++++++++++++++++++++++++
+ Products 		 Qty		Price
+============================
