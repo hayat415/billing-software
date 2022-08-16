@@ -112,8 +112,8 @@ class Bill_app:
 
                 total=Button(btn_f, command=self.total, text="Total", bg="cadetblue", fg="white", pady=10, width=10). grid(row=0, column=0, padx=5, pady=5)
                 generate=Button(btn_f, text="generate",command=self.bill_area, bg="cadetblue", fg="white", pady=10, width=10). grid(row=0, column=1, padx=5, pady=5)
-                clear=Button(btn_f, text="clear", bg="cadetblue", fg="white", pady=10, width=10). grid(row=0, column=2, padx=5, pady=5)
-                exit=Button(btn_f, text="exit", bg="cadetblue", fg="white", pady=10, width=10). grid(row=0, column=3, padx=5, pady=5)
+                clear=Button(btn_f, text="clear", command=self.clear_data, bg="cadetblue", fg="white", pady=10, width=10). grid(row=0, column=2, padx=5, pady=5)
+                exit=Button(btn_f, text="exit", command=self.Exit_app, bg="cadetblue", fg="white", pady=10, width=10). grid(row=0, column=3, padx=5, pady=5)
                 self.wellcome_bill()
         def total(self):
                 self.c_s_p=self.soap.get()
@@ -171,8 +171,17 @@ class Bill_app:
                                 present="yes"
                 if present =="no":
                         messagebox.showerror("Error", "Invalid bil No.")
+        def clear_data(self):
+                op=messagebox.askyesno("Clear", "Do you really want to clear ")
+                if op>0:
+                        self.c_name.set("")
+                        self.c_phone.set("")
 
 
+        def Exit_app(self):
+                op=messagebox.askyesno("Exit", "Do you really want to exit?")
+                if op>0:
+                        self.root.destroy()
 
         
 

@@ -1,0 +1,8 @@
+	Welcome Webcode Retail
+ Bill Number: 8791
+Customer Name:sfsdf
+ Phone Number:234
+++++++++++++++++++++++++++++
+ Products 		 Qty		Price
+============================
+ Bath Soap		 333		333

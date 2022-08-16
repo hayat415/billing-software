@@ -1,0 +1,7 @@
+	Welcome Webcode Retail
+ Bill Number: 2571
+Customer Name:dfdsf
+ Phone Number:2323
+++++++++++++++++++++++++++++
+ Products 		 Qty		Price
+============================
